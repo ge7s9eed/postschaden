@@ -15,6 +15,8 @@ import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
 
+    private static final String debugMode = "Login";
+
     EditText    username;
     EditText    password;
     Button      login;
@@ -40,7 +42,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void loginDBQuery(String username, String password){
-
+        Log.d(debugMode, "IDK ");
     }
 
 
