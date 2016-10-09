@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3164e6bffe5da32213d8babf4b3c47d9d407ea92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="dbdaa3641a6a8fa1c4f26fda14ac57d8a968e900">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d02812166e2c7158850b32172eaabe69f0d16391/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_31e1ad69995908adad4eeffc845d1f0cbad3bc5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_b97305d633a65b6254e19135d1fa569a70770801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_fc3adec51298b37dcf8e4a79765528d2df014d36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_92886e0f8ae4e5dec51aaff0781284d45f94648a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_d31cf3a15b49ce9489f8450f49ae4498a9c69edf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_cfdc1512d8789e821de42aa6bb91016812b343b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_408527d354d4ed527f046947250a998c332034e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9b2e6e61e093f35e8649c55deff7298a05c41ea3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_7ff0842328318b21556612ea182c5b9d6296aff8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="63e7f00af6e47ab0797723bf2ca5e0f77cd0cafd">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8b17ffd86f606fc36209368dab110258d5c98892/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_8d5057a29651543894881a0b0fe2b9fcd2ef6da2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_3b0bfe35929283eb133c27a3ed98c8a3d3220b20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_95261b0bbff5f503e756e3ba553e43bc68609c06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_94cbc76cef3ac9e8bce1c9ad396bdbe7a3918d81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_161282775d938781ff34d9255aa8cf70c49a6678/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_f03d13f3cc43310ab85279de0e2d4534288346d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schmidt_Schadensprotokoll/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_379b98a5d348ecc1036502c7b6a36ab013b91b78/classes.dex" />
+    </item>
+
+</items>
