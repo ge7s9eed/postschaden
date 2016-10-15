@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7bd8fd6-146c-4a7a-9af1-368e548ca082" name="Default" comment="Change für Kontrolle ob Versionierung aus dem Android Studio funktioniert.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/stuxnet/schmidt_schadensprotokoll/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/stuxnet/schmidt_schadensprotokoll/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHPScripts/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHPScripts/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PHPScripts/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHPScripts/setuser.php" afterPath="$PROJECT_DIR$/PHPScripts/setuser.php" />
     </list>
     <ignored path="Schaden.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2137,6 +2136,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b7bd8fd6-146c-4a7a-9af1-368e548ca082" name="Default" comment="" />
@@ -2157,7 +2159,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="24" width="1080" height="1896" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

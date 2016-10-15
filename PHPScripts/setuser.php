@@ -7,25 +7,38 @@
  */
 header('Content-type: application/json');
 
-// array for JSON response
+/**
+ * Konstanten und andere Variablen
+ */
+
+$SERVERNAME = "localhost";
+$SQLUSERNAME = "proappschmidt";
+$SQLPASSWORD = "schmidt89";
+$DBNAME = "proappschmidt";
+
 $response = array();
+$method = "";
 
-if(isset($_POST['userid']) && isset($_POST['name']) && isset($_POST['lastname']) &&
-        isset($_POST['token']) && isset($_POST['vertrag'])){
-
-    $response['code'] = 200;
-    $response['status'] = "successfull user upload";
-
-    echo json_encode($response);
-
+if(isset($_GET["userid"])){
+    echo createSuccessRespone("Super !!!!");
 }else{
-
-    $response['code'] = 500;
-    $response['status'] = "not enough Parameters for user upload";
-
-    echo json_encode($response);
+    echo createFailResponse("Es wurden zu wenige Paramter mitgegeben. ");
 }
 
+
+
+
+function createSuccessRespone($message){
+    $response['code'] = 200;
+    $response['status'] = $message;
+    return $response;
+}
+
+function createFailResponse($message){
+    $response['code'] = 500;
+    $response['status'] = $message;
+      return $response;
+}
 
 
 
