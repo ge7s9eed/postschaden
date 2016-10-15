@@ -54,7 +54,8 @@ switch ($method){
 function validate($kurz, $pwd){
    $con = mysqli_connect(HOST,USER,PASS,DB);
 
-    $sql = "select * from schmidt_user where token='".$kurz."' and pwd='".$pwd."'  or ";
+    $sql = "select * from schmidt_user where token='".$kurz."' and pwd='".$pwd."'";
+    //$sql = "select * from schmidt_user";
     $res = mysqli_query($con,$sql);
     $result = array();
 
@@ -69,7 +70,7 @@ function validate($kurz, $pwd){
     }
 
     echo json_encode(array("result"=>$result));
-   mysqli_close();
+    mysqli_close($con);
 
  }
 
