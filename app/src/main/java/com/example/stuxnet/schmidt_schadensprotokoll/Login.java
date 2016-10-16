@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
 
     boolean remember = false;
 
-    Context context = Login.this;
+    public Context context = Login.this;
 
 
     @Override
@@ -77,10 +77,12 @@ public class Login extends AppCompatActivity {
 
         setContentView(R.layout.login);
 
+
         username    = (EditText)findViewById(R.id.et_username);
         password    = (EditText)findViewById(R.id.et_password);
         login       = (Button) findViewById(R.id.btn_login);
         remeberme   = (CheckBox)findViewById(R.id.cb_rememberme);
+
 
         //Holt sich die Infos aus dem File PREFS_NAME
         SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
@@ -94,7 +96,7 @@ public class Login extends AppCompatActivity {
         password.setText(input_pwd);
         remeberme.setChecked(remember);
 
-        //Der User moechte gerne direkt eingeloggt werden. 
+        //Der User moechte gerne direkt eingeloggt werden.
         if (remember){
             new CheckUserFromDB().execute();
         }
@@ -157,9 +159,9 @@ public class Login extends AppCompatActivity {
 
         SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         SharedPreferences.Editor editor = settings.edit();
+        Log.d(debugMode, status+"");
         if(status){
-            if (remember){
-                Log.d(debugMode, "Schreibt in den editor");
+            Log.d(debugMode, "Schreibt in den editor");
                     editor.putString("token", auth_token);
                     editor.putString("userid", auth_userid);
                     editor.putString("name", auth_name);
@@ -169,7 +171,7 @@ public class Login extends AppCompatActivity {
 
                 Log.d(debugMode, "Schreibt  den input username : " + auth_token);
                 Log.d(debugMode, "Liest den input username : " + auth_pwd);
-            }
+
 
             editor.putBoolean("remember",remember);
             editor.commit();

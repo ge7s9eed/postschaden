@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carnum_prompt">Fahrzeugnummer</string>
+    <string-array name="carnum_prompt">
+        <item></item>
+        <item>701</item>
+        <item>702</item>
+        <item>705</item>
+        <item>712</item>
+        <item>750</item>
+        <item>801</item>
+        <item>805</item>
+        <item>808</item>
+    </string-array>
+
+    <string name="locationout_prompt">Schadenlocationout</string>
+    <string-array name="locationout_prompt">
+        <item></item>
+        <item>Front</item>
+        <item>Rechts</item>
+        <item>vorne Links</item>
+        <item>Windschutzscheibe</item>
+        <item>Linke Fahrzeugseite vorne</item>
+        <item>Linke Fahrzeugseite mitte</item>
+        <item>Linke Fahrzeugseite hinten</item>
+        <item>Heck</item>
+        <item>hinten Rechts</item>
+        <item>hinten Links</item>
+        <item>Heckscheibe</item>
+        <item>Rechte Fahrzeugseite vorne</item>
+        <item>Rechte Fahrzeugseite mitte</item>
+        <item>Rechte Fahrzeugseite hinten</item>
+    </string-array>
+
+    <string name="locationin_prompt">Schadenlocationin</string>
+    <string-array name="locationin_prompt">
+        <item></item>
+        <item>Fahrerposition</item>
+        <item>Kasse</item>
+        <item>Innenbeleuchtung</item>
+        <item>Halteaufforderung</item>
+        <item>Anzeige Haltestelle</item>
+        <item>Radio</item>
+        <item>WLAN</item>
+        <item>Türe vorne</item>
+        <item>Türe mitte</item>
+        <item>Türe hinten</item>
+        <item>Sitze hinterer Bereich rechts</item>
+        <item>Sitze hinterer Bereich links</item>
+        <item>Sitze vorderer Bereich rechts</item>
+        <item>Sitze vorderer Bereich links</item>
+    </string-array>
+</resources>
+
+
+

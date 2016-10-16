@@ -13,8 +13,41 @@
     tools:context="com.example.stuxnet.schmidt_schadensprotokoll.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <Button
+        android:text="@string/schadensliste"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_schadensliste"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/btn_schadenaufnehmen"
+        android:layout_alignParentStart="true"
+        android:layout_height="100dp" />
+
+    <Button
+        android:text="@string/schaden_aufnehmen"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btn_schadenaufnehmen"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_height="100dp" />
+
     <TextView
+        android:text="@string/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/tv_welcome"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+
 </RelativeLayout>

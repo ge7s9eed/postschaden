@@ -11,5 +11,13 @@
     <string name="login">Login</string>
     <string name="eingeloggt_bleiben">Eingeloggt bleiben</string>
     <string name="logo_schmidt_ag">Logo Schmidt AG</string>
+    <string name="schaden_aufnehmen">Schaden melden</string>
+    <string name="schadensliste">Schadensliste</string>
+    <string name="textview">TextView</string>
+    <string name="aufnahme_eines_neuen_schadens">Aufnahme eines neuen Schadens.</string>
+    <string name="fahrzeugnummer">Fahrzeugnummer</string>
+    <string name="ort_des_schadensaussen">Schaden aussen</string>
+    <string name="ort_des_schadensinnen">Schaden innen</string>
+    <string name="schadenbeschreibung">Schadenbeschreibung</string>
 
 </resources>

@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="b2ac35bde004f7d0c71044560962a81a2dd9551c">
+        sha1="bc7ff20dce2dac98966315fc55342eee3595d3e8">
         <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_06023a586e1c97fc6b21e8d4f3f396b841dfd8a3/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="e47f834a77dd842abd0413551e20e131956d6a24">
+        sha1="9a41b3d3cca32f875d2e534563c7382cc73a3643">
         <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d1ce5b1073f917e9a1ff43ab5cc0982f241358c5/classes.dex" />
     </item>
     <item
@@ -111,21 +111,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_0498b08bcfefd6263fec3d100cdb4e62a5cf904e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_24826fcc0ffd9e671194a9c9bb58343f7c7b80c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/stuxnet/Documents/Andorid/SchmidtAG/Schaden/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_0498b08bcfefd6263fec3d100cdb4e62a5cf904e/classes.dex" />
     </item>
     <item
         is-multidex="true"
