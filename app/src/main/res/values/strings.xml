@@ -9,5 +9,7 @@
     <string name="username">Benutzername</string>
     <string name="passwort">Passwort</string>
     <string name="login">Login</string>
+    <string name="eingeloggt_bleiben">Eingeloggt bleiben</string>
+    <string name="logo_schmidt_ag">Logo Schmidt AG</string>
 
 </resources>
