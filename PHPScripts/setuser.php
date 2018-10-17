@@ -10,7 +10,6 @@ header('Content-type: application/json');
 /**
  * Konstanten und andere Variablen
  */
-
 $response = array();
 $method = "";
 
@@ -68,8 +67,6 @@ function validate($kurz, $pwd){
 
  }
 
-
-
 /*
 * Function create an Success-Array
 */
@@ -88,14 +85,3 @@ function createFailResponse($message){
     $response['status'] = $message;
     return $response;
 }
-
-
-
-
-
-
-
-
-
-
-
