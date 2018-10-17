@@ -18,13 +18,13 @@ if(isset($_POST['userid']) && isset($_POST['fahrzeugnr']) && isset($_POST['locat
     $response['code'] = 200;
     $response['status'] = "successfull damage upload";
 
-    echo json_encode($response);
+    echo json_encode($response, true);
 
 }else{
 
     $response['code'] = 500;
     $response['status'] = "not enough Parameters for damage upload";
 
-    echo json_encode($response);
+    echo json_encode($response, true);
 }
 

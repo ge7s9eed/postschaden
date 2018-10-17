@@ -22,11 +22,6 @@ define('USER','proappschmidt');
 define('PASS','schmidt89');
 define('DB','proappschmidt');
 
-
-
-
-
-
 /**
  * Hier wird entschieden, was fuer eine Aktion mit dem User gemacht werden soll
  * bsp. addNewUser, isUserinDB, getUser etc.
@@ -43,7 +38,6 @@ switch ($method){
         validate($_POST['kuerzel'],$_POST['pwd']);
         break;
     case 'adduser':
-       // validate($_POST[''],$_POST[''],$_POST[''],$_POST[''],$_POST[''],$_POST[''],$_POST['']);
         break;
     default:
         echo json_encode(createFailResponse('MethodNotFoundException'));
@@ -76,7 +70,9 @@ function validate($kurz, $pwd){
 
 
 
-
+/*
+* Function create an Success-Array
+*/
 function createSuccessRespone($message, $value){
     $response['code'] = 200;
     $response['status'] = $message;
@@ -84,6 +80,9 @@ function createSuccessRespone($message, $value){
     return $response;
 }
 
+/*
+* Function create Faild-Array
+*/
 function createFailResponse($message){
     $response['code'] = 500;
     $response['status'] = $message;
