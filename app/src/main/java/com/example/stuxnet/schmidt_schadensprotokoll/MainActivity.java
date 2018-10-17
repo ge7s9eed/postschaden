@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity
 
 
         /**
-         * Macht den Welcome Text huebsch mit grossem Anfangsbuchstaben
          *  "Hallo Max Mustermann"
          */
         welcome.setText("Hallo " + name.substring(0,1).toUpperCase() + name.substring(1)
