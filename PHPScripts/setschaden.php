@@ -17,7 +17,7 @@ if(isset($_POST['userid']) && isset($_POST['fahrzeugnr']) && isset($_POST['locat
 
     $response['code'] = 200;
     $response['status'] = "successfull damage upload";
-
+    // Hier wird die Ausgabe der Response gemacht. Solange die POST Parameter stimmen.
     echo json_encode($response, true);
 
 }else{
