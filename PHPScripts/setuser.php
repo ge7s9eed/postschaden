@@ -17,9 +17,9 @@ $method = "";
  * Defines
  */
 define('HOST','localhost');
-define('USER','proappschmidt');
-define('PASS','schmidt89');
-define('DB','proappschmidt');
+define('USER','proapp');
+define('PASS','**********');
+define('DB','**********');
 
 /**
  * Hier wird entschieden, was fuer eine Aktion mit dem User gemacht werden soll
