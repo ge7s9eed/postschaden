@@ -43,7 +43,9 @@ switch ($method){
         break;
 }
 
-
+/*
+* Function validiert den Username und das Password. sehr sehr schlecht...
+*/
 function validate($kurz, $pwd){
    $con = mysqli_connect(HOST,USER,PASS,DB);
 
