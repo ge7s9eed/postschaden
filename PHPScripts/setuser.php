@@ -83,6 +83,7 @@ function createSuccessRespone($message, $value){
 
 /*
 * Function create Faild-Array
+* Do never create a failed-array this way.
 */
 function createFailResponse($message){
     $response['code'] = 500;
