@@ -31,6 +31,8 @@ if(isset($_POST["method"])){
     echo json_encode(createFailResponse('Fail'));
 }
 
+// Switch entscheidet, was für eine Aktion gestartet werden soll
+// Switch entscheidet, was für eine Aktion gestartet werden soll..
 switch ($method){
     //Wenn sich ein Benutzer Anmelden will und schon ein login besitzt "user> hol, pwd> 12345"
     case 'loginuser':
