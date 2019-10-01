@@ -17,9 +17,9 @@ $method = "";
  * Defines
  */
 define('HOST','localhost');
-define('USER','proappschmidt');
-define('PASS','schmidt89');
-define('DB','proappschmidt');
+define('USER','proapp');
+define('PASS','**********');
+define('DB','**********');
 
 /**
  * Hier wird entschieden, was fuer eine Aktion mit dem User gemacht werden soll
@@ -31,6 +31,8 @@ if(isset($_POST["method"])){
     echo json_encode(createFailResponse('Fail'));
 }
 
+// Switch entscheidet, was für eine Aktion gestartet werden soll
+// Switch entscheidet, was für eine Aktion gestartet werden soll..
 switch ($method){
     //Wenn sich ein Benutzer Anmelden will und schon ein login besitzt "user> hol, pwd> 12345"
     case 'loginuser':
@@ -43,7 +45,9 @@ switch ($method){
         break;
 }
 
-
+/*
+* Function validiert den Username und das Password. sehr sehr schlecht...
+*/
 function validate($kurz, $pwd){
    $con = mysqli_connect(HOST,USER,PASS,DB);
 
