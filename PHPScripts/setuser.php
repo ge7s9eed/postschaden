@@ -50,7 +50,7 @@ switch ($method){
 */
 function validate($kurz, $pwd){
    $con = mysqli_connect(HOST,USER,PASS,DB);
-
+   // In so vielen Schichten falsch. Passwörter müssen gehasht sein. So nicht.
     $sql = "select * from schmidt_user where token='".$kurz."' and pwd='".$pwd."'";
     //$sql = "select * from schmidt_user";
     $res = mysqli_query($con,$sql);
