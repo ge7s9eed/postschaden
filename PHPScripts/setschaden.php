@@ -17,6 +17,7 @@ if(isset($_POST['userid']) && isset($_POST['fahrzeugnr']) && isset($_POST['locat
 
     $response['code'] = 200;
     $response['status'] = "successfull damage upload";
+    logger::log($response['status']);
     // Hier wird die Ausgabe der Response gemacht. Solange die POST Parameter stimmen.
     echo json_encode($response, true);
 
@@ -24,7 +25,7 @@ if(isset($_POST['userid']) && isset($_POST['fahrzeugnr']) && isset($_POST['locat
 
     $response['code'] = 500;
     $response['status'] = "not enough Parameters for damage upload";
-
+    logger::log($response['status'], 'warning<');
     echo json_encode($response, true);
 }
 
